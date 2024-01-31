@@ -28,7 +28,9 @@
             <input type="text" class="form-control" [(ngModel)]="cliente.apellido" name="apellido" #apellido="ngModel"><!--required minlength="4"-->
             <div class="alert alert-danger" *ngIf="apellido.invalid && (apellido.touched)">
               <div *ngIf="apellido.errors?.['required']">
+
                 Apellido es requerido
+
               </div>
           </div>
         </div>
