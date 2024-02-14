@@ -16,7 +16,8 @@ import localeEs from '@angular/common/locales/es';
 import { PaginatorComponent } from './components/paginator/paginator.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { MatMomentDateModule } from '@angular/material-moment-adapter';
-import { MatDatepickerModule } from '@angular/material/datepicker'
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { DetalleComponent } from './components/clientes/detalle/detalle.component'
 
 
 
@@ -30,7 +31,8 @@ registerLocaleData(localeEs, 'es');
     ClientesComponent,
     DirectivaComponent,
     FormComponent,
-    PaginatorComponent
+    PaginatorComponent,
+    DetalleComponent
   ],
   imports: [
     BrowserModule,
